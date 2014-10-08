@@ -920,6 +920,7 @@ gpio_pin_5 = port:PB02<0><2><default><default>
 gpio_pin_6 = port:PI03<0><2><default><default>
 gpio_pin_7 = port:PH09<0><2><default><default>
 gpio_pin_8 = port:PH10<0><2><default><default>
+gpio_pin_9 = port:PH05<0><2><default><default>
 gpio_pin_10 = port:PI10<0><2><default><default>
 gpio_pin_11 = port:PI12<0><2><default><default>
 gpio_pin_12 = port:PI13<0><2><default><default>

@@ -1,6 +1,7 @@
 .PHONY: all clean help
 .PHONY: tools u-boot linux libs hwpack hwpack-install
 .PHONY: patch linux-config livesuit android
+.PHONY: debian_root
 
 SUDO=sudo
 CROSS_COMPILE=arm-linux-gnueabihf-
@@ -78,6 +79,10 @@ rootfs.ext4: $(ROOTFS)
 
 livesuit: 
 	$(Q)scripts/mk_livesuit_img.sh -R $(ROOTFS)
+
+## Debian stuff
+debian_root: 
+	$(Q)mkdir debian_root
 
 ## android
 #android-%:
